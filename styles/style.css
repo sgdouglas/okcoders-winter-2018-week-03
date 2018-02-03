@@ -34,8 +34,33 @@ img {
 
 }
 
+?/*flex container*/
+
+.columns {
+	display: flex;
+	flex-direction: column-reverse;
+	/*justify-content: space-around;*/
+}
+
 .columns p {
+	/*width: 33%;*/
+	padding: 6px;
+}
+
+.gallery {
+	display: flex;
+/*	justify-content: center;*/
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.gallery img {
+	width: 180px;
+}
+
+/*.columns p {
 	width: 32%;
 	float: left;
 	padding: 6px;
 }
+*/
